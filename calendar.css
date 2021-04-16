@@ -1,0 +1,45 @@
+*{
+  padding: 0; margin: 30;
+  user-select: none; box-sizing: border-box;
+}
+ 
+body{
+  background-image: url('book.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.calendar{
+
+  position: absolute;
+  top: 100px;
+  right: 250px;
+}
+
+header{ padding: 0.9rem 0 0 2rem}
+
+header h1 {
+  font-size: 50px;
+}
+
+header h3{
+  font-size: 30px;
+}
+
+.week{
+  color: white;
+  background:rgb(7, 99, 19);
+  border:rgb(7, 99, 19);
+}
+table{
+  text-align: center;
+  font-size: 30px;
+}
+th{
+  border:5px rgb(7, 99, 19) solid;
+ 
+}
+td:hover{
+  cursor: pointer;
+  background-color:gray;
+}
